@@ -1,5 +1,19 @@
 # Claude Skills - Complete Package Summary
 
+> **⚠️ NOTE:** This guide is preserved for reference but describes an older repository structure.
+>
+> **The repository has been reorganized!** The skill creator tool is now included as a subdirectory in this repository.
+>
+> **For current documentation**, see:
+> - [README.md](README.md) - Repository overview with clear navigation
+> - [START_HERE.md](START_HERE.md) - Quick decision guide for finding what you need
+> - [GETTING_STARTED.md](GETTING_STARTED.md) - Getting started with the library
+> - [claude-code-skill-creator/README.md](claude-code-skill-creator/README.md) - Creator tool documentation
+>
+> ---
+>
+> ## Original Content (May Be Outdated)
+
 You now have **two complementary repositories** for managing Claude Code skills:
 
 ## 📦 Package 1: Claude Code Skill Creator (Tool)

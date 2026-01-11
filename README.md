@@ -1,9 +1,48 @@
-# Claude Skills Library
+# Claude Skills Library & Creator
 
-A curated collection of Claude Code skills for development, automation, and productivity.
+A complete system for creating, organizing, and sharing Claude Code skills.
 
 [![License](https://img.shields.io/badge/License-Apache%202.0-blue.svg)](LICENSE)
 [![Skills](https://img.shields.io/badge/skills-0-brightgreen.svg)](skills/)
+
+## What Is This Repository?
+
+This repository contains **two complementary parts**:
+
+### 1. Skills Library (Main Directory)
+📚 **A curated collection of ready-to-use Claude Code skills**
+- Pre-made skills organized by category
+- Ready to browse and use immediately
+- Located in `skills/` directory
+
+### 2. Skill Creator Tool (Subdirectory)
+🛠️ **A toolkit for creating new skills**
+- Interactive wizard with templates
+- Validation and best practices
+- Located in `claude-code-skill-creator/` subdirectory
+
+---
+
+## Quick Navigation
+
+Choose your path:
+
+### 🎯 I want to USE an existing skill
+→ Browse the [`skills/`](skills/) directory by category
+→ Each skill has a SKILL.md with complete instructions
+→ [Getting Started Guide →](GETTING_STARTED.md)
+
+### ✨ I want to CREATE a new skill
+→ Use the creator tool in [`claude-code-skill-creator/`](claude-code-skill-creator/)
+→ Interactive wizard makes it easy
+→ [Creator Tool README →](claude-code-skill-creator/README.md)
+
+### 🤝 I want to CONTRIBUTE a skill
+→ Read the contribution guide
+→ Submit via pull request
+→ [Contributing Guide →](CONTRIBUTING.md)
+
+---
 
 ## 📚 Available Skills
 
@@ -145,33 +184,44 @@ Check skill metadata for tags (coming soon).
 
 ## 🛠️ Using the Skill Creator Tool
 
-To create new skills more easily, use our skill-creator toolkit:
+The skill creator toolkit is **included in this repository** at `claude-code-skill-creator/`:
 
 ```bash
-# Clone the skill creator
-git clone https://github.com/YOUR_USERNAME/claude-code-skill-creator.git
-
-# Create a new skill
+# Navigate to the creator tool
 cd claude-code-skill-creator
+
+# Make scripts executable (first time only)
+chmod +x scripts/*.sh
+
+# Create a new skill using the wizard
 ./scripts/create-skill.sh
 
-# Move to this repo
-mv your-skill-name ../claude-skills-library/skills/category/
+# The wizard will guide you through:
+# 1. Naming your skill
+# 2. Choosing a template
+# 3. Generating files
+# 4. Validating the skill
+
+# Then move the completed skill to the library
+mv your-skill-name ../skills/category-name/
 ```
+
+See the [Skill Creator README](claude-code-skill-creator/README.md) for complete documentation.
 
 ## ✅ Validation
 
 Before submitting, validate your skill:
 
 ```bash
-# If using skill-creator toolkit
-/path/to/skill-creator/scripts/validate-skill.sh skills/category/your-skill
+# Using the built-in skill creator validator
+./claude-code-skill-creator/scripts/validate-skill.sh skills/category/your-skill
 
-# Otherwise, manually check:
+# The validator checks:
 # - SKILL.md exists and is complete
-# - No TODO or placeholder text
-# - Examples are tested
-# - License is Apache 2.0
+# - No {{PLACEHOLDER}} text remaining
+# - Apache 2.0 license included
+# - Balanced markdown code blocks
+# - No TODO/FIXME markers
 ```
 
 ## 📜 License

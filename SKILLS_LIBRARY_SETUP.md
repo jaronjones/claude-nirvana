@@ -1,5 +1,15 @@
 # Claude Skills Library - Complete Setup Guide
 
+> **⚠️ NOTE:** This comprehensive guide is preserved for reference but may contain outdated information.
+>
+> **For current documentation**, see:
+> - [README.md](README.md) - Repository overview with quick navigation
+> - [START_HERE.md](START_HERE.md) - Quick decision guide
+> - [GETTING_STARTED.md](GETTING_STARTED.md) - Getting started with the library
+> - [claude-code-skill-creator/README.md](claude-code-skill-creator/README.md) - Creator tool documentation
+>
+> ---
+
 ## What You Have
 
 A complete, production-ready repository structure for collecting and organizing your Claude Code skills.

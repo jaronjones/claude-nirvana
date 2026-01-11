@@ -1,9 +1,23 @@
 # Claude Code Skill Creator
 
+> 🛠️ **This is the skill creation toolkit** - part of the Claude Skills Library system
+>
+> **Looking for ready-to-use skills?** See the [parent repository README](../README.md) or browse [`../skills/`](../skills/)
+
 Create high-quality Claude Code skills quickly and consistently with templates, validation, and automation.
 
 [![License](https://img.shields.io/badge/License-Apache%202.0-blue.svg)](LICENSE)
 [![Validate Skills](https://github.com/YOUR_USERNAME/claude-code-skill-creator/actions/workflows/validate-examples.yml/badge.svg)](https://github.com/YOUR_USERNAME/claude-code-skill-creator/actions/workflows/validate-examples.yml)
+
+## What This Tool Does
+
+This toolkit helps you **create new skills** with:
+- Interactive wizard for guided skill creation
+- Professional templates (basic, with-scripts, with-config)
+- Built-in validation to ensure quality
+- Examples and best practices
+
+**This tool is for creating skills.** Once created, skills can be added to the library in `../skills/` for organization and sharing.
 
 ## 🚀 Quick Start
 

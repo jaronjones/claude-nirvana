@@ -6,9 +6,54 @@ This file provides guidance to Claude Code (claude.ai/code) when working with co
 
 This is a Claude Skills Library - a curated collection of reusable skills/workflows for Claude Code. The repository contains:
 
-1. **Skills** organized into four categories (development, devops, documentation, automation)
-2. **Claude Code Skill Creator** (`claude-code-skill-creator/`) - a toolkit for creating new skills with templates and validation
+1. **Skills Library** (main directory) - organized collection of skills in four categories (development, devops, documentation, automation)
+2. **Skill Creator Tool** (`claude-code-skill-creator/`) - a toolkit for creating new skills with templates and validation
 3. **Documentation** guiding contributors on writing and organizing skills
+
+## Important: "Printing Press vs Library" Distinction
+
+This repository serves **two distinct purposes**:
+
+### 📚 The Library (Skills Directory)
+- **Purpose**: Organize and store completed skills for use
+- **Location**: `skills/` directory
+- **Analogy**: A library of books to read and use
+- **When users want this**: "I want to USE a skill"
+
+### 🛠️ The Printing Press (Creator Tool)
+- **Purpose**: Create new skills with templates and validation
+- **Location**: `claude-code-skill-creator/` directory
+- **Analogy**: A printing press to write and publish new books
+- **When users want this**: "I want to CREATE a skill"
+
+**Critical**: Always clarify which part the user needs based on their intent.
+
+## Documentation Navigation
+
+When helping users, direct them to the appropriate starting point:
+
+### For Users Who Want to USE Skills:
+1. **Primary**: [README.md](README.md) - Clear three-path navigation at the top
+2. **Decision tree**: [START_HERE.md](START_HERE.md) - Comprehensive decision guide
+3. **Getting started**: [GETTING_STARTED.md](GETTING_STARTED.md) - Library usage guide
+4. **Browse**: `skills/` directory by category
+
+### For Users Who Want to CREATE Skills:
+1. **Primary**: [claude-code-skill-creator/README.md](claude-code-skill-creator/README.md) - Creator tool documentation
+2. **Decision tree**: [START_HERE.md](START_HERE.md) - Shows creation path
+3. **Quick reference**: [SKILL_TEMPLATE.md](SKILL_TEMPLATE.md) - Manual template
+
+### For Users Who Want to CONTRIBUTE:
+1. **Primary**: [CONTRIBUTING.md](CONTRIBUTING.md) - Contribution guidelines
+2. **Writing guide**: [docs/SKILL_GUIDELINES.md](docs/SKILL_GUIDELINES.md) - Best practices
+3. **Categories**: [docs/CATEGORIES.md](docs/CATEGORIES.md) - Category selection
+
+### Deprecated/Reference Files (Do Not Recommend):
+- `GETTING_STARTED_CREATOR.md` - Old creator setup guide (use creator's README instead)
+- `SKILLS_LIBRARY_SETUP.md` - Old comprehensive setup (use README and START_HERE instead)
+- `COMPLETE_PACKAGE_GUIDE.md` - Old package summary (describes outdated structure)
+
+These files have deprecation notices and should not be recommended to users.
 
 ## Repository Structure
 
