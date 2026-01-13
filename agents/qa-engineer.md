@@ -1,4 +1,4 @@
-a---
+---
 name: qa-engineer
 description: >
   Quality Assurance testing agent. Use when: running smoke tests, regression testing, validating new features,
